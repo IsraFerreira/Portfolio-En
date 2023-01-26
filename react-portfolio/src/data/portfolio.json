@@ -2,26 +2,26 @@
     "portfolio": [
         {
             "cover": "/portfolio/1/ds-movie.png",
-            "title": "Projeto Avaliação de Filmes",
+            "title": "Film Rating Project",
             "description": "React, Java, JS, HTML, CSS",
             "url": "https://israferreira-dsmovie.netlify.app"
         },
         {
             "cover": "/portfolio/1/android.png",
-            "title": "Site Android",
+            "title": "Android Website",
             "description": "HTML, CSS",
             "url": "https://israferreira.github.io/Projeto_Site_Android/"
         },
         {
             "cover": "/portfolio/1/cordel.png",
-            "title": "Site Cordel",
+            "title": "Cordel Website",
             "description": "HTML, CSS",
             "url": "https://israferreira.github.io/Projeto_Site_Cordel/"
         },
         
         {
             "cover": "/portfolio/1/macaco.png",
-            "title": "Jogo Macaco Perdido",
+            "title": "Lost Monkey Game",
             "description": "JS, HTML, CSS",
             "url": "https://israferreira.github.io/Jogo_Macaco_Perdido/"
         }

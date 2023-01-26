@@ -21,13 +21,13 @@ const About = () => {
                 <h1>
                     <AnimatedLetters 
                         letterClass={letterClass}
-                        strArray = {['S', 'o', 'b', 'r', 'e', ' ', 'm', 'i', 'm']}
+                        strArray = {['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
                         idx={15}
                     />
                 </h1>
-                <p>Sou um desenvolvedor Front-end dedicado, procurando um papel numa empresa de TI com a oportunidade de trabalhar com as tecnologias mais recentes em projetos desafiadores e diversos.</p>
-                <p>Sou uma pessoa tranquila e confiante, sou naturalmente curioso e estou sempre buscando aprimorar minhas habilidades e melhorar dentro e fora do ambiente profisisonal.</p>
-                <p>Se eu fosse me definir em uma palavra, eu diria que sou alguém "família", adoro jogos e filmes/séries, entusiasta em design gráfico (e também back-end) e obcecado por tecnologia.</p>
+                <p>I'm a dedicated Front-end developer looking for a role in an IT company with the opportunity to work with the latest technologies on challenging and diverse projects.</p>
+                <p>I am a calm and confident person, I am naturally curious and I am always looking to improve my skills and improve inside and outside the professional environment.</p>
+                <p>If I were to define myself in one word, I would say that I am someone "family", I love games and movies/series, graphic design enthusiast (and also back-end) and obsessed with technology.</p>
             </div>
 
 

@@ -10,7 +10,7 @@ import './index.scss'
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['s', 'r', 'a', 'e', 'l', ' ', 'N', 'o', 'n', 'a', 't', 'o']
-    const jobArray = ['D', 'e', 's', 'e', 'n', 'v', 'o', 'l', 'v', 'e', 'd', 'o', 'r', ' ', 'F', 'r', 'o', 'n', 't', '-', 'E', 'n', 'd', '.']
+    const jobArray = ['F', 'r', 'o', 'n', 't', '-', 'e', 'n', 'd', '', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
     
     useEffect(() => {
         setTimeout(() => {
@@ -24,27 +24,25 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
-                <span className={letterClass}>O</span>
-                <span className={`${letterClass} _7`}>l</span>
-                <span className={`${letterClass} _8`}>á</span>
-                <span className={`${letterClass} _8`}>,</span>
+                <span className={letterClass}>H</span>
+                <span className={`${letterClass} _7`}>e</span>
+                <span className={`${letterClass} _8`}>l</span>
+                <span className={`${letterClass} _9`}>l</span>
+                <span className={`${letterClass} _10`}>o</span>
+                <span className={`${letterClass} _11`}>,</span>
                 <br />
-                <span className={`${letterClass} _9`}>E</span>
-                <span className={`${letterClass} _10`}>u</span>
-                <span className={`${letterClass} _11`}> </span>
-                <span className={`${letterClass} _12`}>s</span>
-                <span className={`${letterClass} _13`}>o</span>
-                <span className={`${letterClass} _14`}>u</span>
-                <span className={`${letterClass} _15`}></span>
-                <span className={`${letterClass} _16`}>o</span>
+                <span className={`${letterClass} _12`}>I</span>
+                <span className={`${letterClass} _13`}> </span>
+                <span className={`${letterClass} _14`}>a</span>
+                <span className={`${letterClass} _15`}>m</span>
                 <img src={LogoTitle} alt="developer" />
                 <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={17} />
                 <br />
                 <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={29} />
                 </h1>
-                <h2> Desenvolvedor Web / Analista de Sistemas
+                <h2> Web Developer / Systems Analyst
                 </h2>
-                <Link to="/contact" className="flat-button">MEU CONTATO</Link>
+                <Link to="/contact" className="flat-button">My Contact</Link>
             </div>
             <Logo />
         </div>

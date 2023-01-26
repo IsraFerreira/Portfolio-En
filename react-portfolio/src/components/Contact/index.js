@@ -23,11 +23,11 @@ const Contact = () => {
             .sendForm('service_ncyhzk8', 'template_rzpwmkd', form.current, 'DfCVnp4A9fBeJJEMg')
             .then(
                 () => {
-                    alert('Mensagem Enviada!')
+                    alert('Message sent!')
                     window.location.reload(true)
                 },
                 () => {
-                    alert('Falha ao enviar a mensagem, por favor tente novamente')
+                    alert('Failed to send message, please try again')
                 }
             )
     }
@@ -39,18 +39,18 @@ const Contact = () => {
                     <h1>
                         <AnimatedLetters
                             letterClass={letterClass}
-                            strArray={['C', 'o', 'n', 't', 'a', 't', 'e', '-', 'm', 'e']}
+                            strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
                             idx={15}
                         />
                     </h1>
                     <p>
-                        Estou interessado em projetos que podem agregar em minhas experiências / portfólio  - especialmente em projetos ambiciosos ou grandes. Porém, se você tiver quaisquer outros pedidos ou perguntas, não hesite em me contatar usando o formulário abaixo também.
+                    I'm interested in projects that can add to my experiences/portfolio - especially ambitious or big projects. However, if you have any other requests or questions, please don't hesitate to contact me using the form below as well.
                     </p>
                     <div className="contact-form">
                         <form ref={form} onSubmit={sendEmail}>
                             <ul>
                                 <li className="half">
-                                    <input placeholder="Nome" type="text" name="name" required />
+                                    <input placeholder="Name" type="text" name="name" required />
                                 </li>
                                 <li className="half">
                                     <input
@@ -62,7 +62,7 @@ const Contact = () => {
                                 </li>
                                 <li>
                                     <input
-                                        placeholder="Assunto"
+                                        placeholder="Subject matter"
                                         type="text"
                                         name="subject"
                                         required
@@ -70,13 +70,13 @@ const Contact = () => {
                                 </li>
                                 <li>
                                     <textarea
-                                        placeholder="Mensagem"
+                                        placeholder="Message"
                                         name="message"
                                         required
                                     ></textarea>
                                 </li>
                                 <li>
-                                    <input type="submit" className="flat-button" value="ENVIAR" />
+                                    <input type="submit" className="flat-button" value="SEND" />
                                 </li>
                             </ul>
                         </form>
